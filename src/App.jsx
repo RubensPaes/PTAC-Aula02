@@ -1,13 +1,14 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 export default function App() {
-
-  const nome = "João";
-  let sobreNome = "Santos";
-
   return(
-    <div>
-        <h1>Hello World</h1>
-        <p>Desenvolvido por: {nome}</p>
-    </div>  
+  <div>
+    <Header/>
+    <main>
+      <p>meio</p>
+    </main>
+    <Footer/>
+  </div>  
   );
 
 
