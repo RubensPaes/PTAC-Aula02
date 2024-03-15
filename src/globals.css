@@ -1,9 +1,50 @@
-header{
-    height: 100px;
-    background-color: aqua;
-}
-footer{
-    height: 100px;
-   
-    background-color: green;
-}
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: red; 
+    color: black; 
+    text-align: center;
+    padding: 10px;
+  }
+  header {
+    color: black;
+    background-color: red;
+    text-align: center; 
+    padding: 20px;
+  }
+  #mommy {
+    color: black;
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 60px; 
+  }
+
+  #escrita {
+    color: black;
+    background-color: red;
+  }
+  #outraescri {
+    color: black;
+    background-color: red;
+  }
+ 
+  #sunheader {
+    color: black;
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #sunfotter {
+    color: black;
+    background-color: red;
+    padding: 10px;
+    margin-top: 10px;
+  }

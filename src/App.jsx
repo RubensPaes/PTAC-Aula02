@@ -3,12 +3,13 @@ import Footer from "./components/Footer";
 import "./globals.css"
 export default function App() {
   return(
-  <div>
+  <div id="mommy">
+    <div id="sunheader">
     <Header/>
-    <main>
-      <p>meio</p>
-    </main>
+    </div>
+  <div id="sunfotter">
     <Footer/>
+    </div>
   </div>  
   );
 
