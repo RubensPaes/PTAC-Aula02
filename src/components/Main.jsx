@@ -12,8 +12,12 @@ export default function Main() {
    }])
   };
   console.table(listaContatos);
+  const excluir = (event) => {
+           
+  }
   return (
     <main>
+     
       <form action="" onSubmit={registrar}>
         <label htmlFor="nome">Nome:</label>
           <input
@@ -23,9 +27,7 @@ export default function Main() {
             value={nome}
             onChange={(event) => setNome(event.target.value)}
           />
-          {nome}
-      
-        <button>Cadastrar</button>
+     
         
         <br />
         <br></br>
@@ -39,23 +41,23 @@ export default function Main() {
             value={telefone}
             onChange={(event) => setTelefone(event.target.value)}
           />
-       
-        <button>Cadastrar</button>
-        {telefone}
 
         
         <button>Salvar</button>
         <br></br>
         <br></br>
-      <label htmlFor="lista">Lista de contatos</label>
-        <input
-            type=""
-            name=""
-            id=""
-            value={listaContatos}
-            onChange={(event) => setlistaContatos(event.target.value)}
-          />
+    
       </form>
+     
+
+      {listaContatos.map((contato, index)=> <div key={index}>
+        <p>
+          {contato.nomeSalvo}
+        </p>
+        <p>
+          {contato.telefoneSalvo}
+        </p>
+      </div>)}
     </main>
   );
 }
