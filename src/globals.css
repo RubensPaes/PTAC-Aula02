@@ -1,55 +1,52 @@
 
-body{
-    margin: 0;
-    padding: 0;
-  }
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin: 20px 0; 
+}
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: red; 
-    color: black; 
-    text-align: center;
-    padding: 10px;
-  }
-  header {
-    color: black;
-    background-color: red;
-    text-align: center; 
-    padding: 20px;
-  }
-  #mommy {
-    color: black;
-    background-color: red;
-    padding: 20px;
-    margin-bottom: 60px; 
-  }
+thead {
+  background-color: #333; 
+  color: #fff; 
+}
 
-  #escrita {
-    font-family: Garamond;
-    color: black;
-    background-color: red;
-  }
-  #outraescri {
-    color: black;
-    background-color: red;
-  }
- 
-  #sunheader {
-    color: black;
-    background-color: red;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  #sunfotter {
-    color: black;
-    background-color: red;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  #conteiner{
-    display: flex;
-    
-  }
+th, td {
+  padding: 12px; 
+  text-align: left; 
+  border: 1px solid #555; 
+}
+
+tbody tr {
+  background-color: #444; 
+}
+
+tbody tr:hover {
+  background-color: #555; 
+}
+
+td {
+  color: #fff; 
+}
+
+
+table th {
+  font-weight: bold; 
+}
+
+.cima{
+  align-items: center;
+}
+button {
+  background-color: #4a4a4a; 
+  color: #ffffff; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  cursor: pointer; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a6a6a; 
+}
